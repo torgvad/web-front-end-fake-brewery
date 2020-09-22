@@ -1,0 +1,61 @@
+#page_content {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("menu-hero.jpg");
+}
+
+.menu-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1 1 31em;
+}
+
+.menu_item {
+    padding-bottom: .5%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.item_description {
+    font-size: 115%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.item_title {
+    font-size: 140%;
+    margin-top: 10px;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.item_img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    max-height: 480px;
+    max-width: 480px;
+    min-width: 200px;
+    min-width: 200px;
+}

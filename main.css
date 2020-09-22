@@ -1,0 +1,95 @@
+
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+    background-attachment: fixed;
+    background-position: center 80%;
+    height: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+#main-content-title {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 270%;
+    text-align: center;
+}
+
+#main-content-intro {
+    font-size: 160%;
+    text-align: center;
+}
+
+#testimonials-title {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    font-size: 270%;
+    text-align: center;
+}
+
+#testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("testimonal-background.jpg");
+    padding-bottom: 5em;
+    padding-top: 5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    text-align: center;
+    font-size: 120%;
+}
+
+.testimonial-name {
+    text-align: center;
+    font-size: 130%;
+}
+
+.testimonial-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1 20em;
+}
+
+#tour-section {
+    margin-top:5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("tour.jpg");
+    height: 900px;
+}
+
+#tour-text {
+    width: 100%;
+    color: white;
+    font-size: 280%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#tour-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 1200px;
+}

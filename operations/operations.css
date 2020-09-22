@@ -1,0 +1,67 @@
+.op-titles {
+    padding-top: 1.5em;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.op-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 130%;
+}
+
+#page_content {
+    text-align: center;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("operations-hero.jpg");
+}
+
+#room-img {
+    padding-top: 1em;
+    padding-bottom: 15px;
+    width: 95%;
+    max-width: 1000px;
+}
+
+
+#old-photo {
+    width: 95%;
+    max-width: 500px;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+#current-op-title {
+    padding-top: 50px;
+    background-color:#b8b8b8;
+    text-align: center;
+}
+
+#current-op-text {
+    padding-bottom: 30px;
+    background-color: #b8b8b8;
+}
+
+#current-op {
+    text-align: center;
+    width: 55%;
+}
+
+#current-op-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    max-width: 900px;
+    width: 95%;
+}
+
+#current-op-section {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #b8b8b8;
+
+}

@@ -1,0 +1,165 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+html { overflow-y: scroll; }
+
+#banner {
+    background-attachment: fixed;
+    background-position: center 80%;
+    height: 55%;
+    background-size: cover;
+    position: relative;
+}
+
+#title {
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner {
+    font-family: 'Vollkorn', serif;
+}
+
+#page {
+    font-family: 'Vollkorn', serif;
+    position: relative;
+}
+
+
+#page_content {
+    background-color: white;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.button::after {
+    background-color: white; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 60%;
+}
+
+.button {
+    font-family: 'Vollkorn', serif;
+    font-size: 125%;
+    margin-left: 2%;
+    color: white;
+    border-style: none;
+    position: relative;
+    background-color: transparent;
+}
+
+#toolbar {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover::after {
+    height: 1.1px;
+    width: 80%;
+}
+
+.button:hover {
+    transform: scale(1.07);
+}
+
+#hours {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+#hours-label, #location-label {
+    font-size: 150%;
+}
+
+#operation-hours, #address {
+    font-size: 115%;
+}
+
+#location {
+    max-width: 90%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    padding-left: 20%;
+    padding-top: 7%;
+}
+
+#socials {
+    max-width: 30%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.social-button:hover {
+    cursor: pointer;
+}
+
+.social-button img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.social-button {
+    padding-top: 5px;
+}
+
+#fb-button {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#twitter-button {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+#ig-button {
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+#footer_content {
+    min-width: 300px;
+    width: 40%;
+    display: grid;
+}
+
+#footer {
+    color: white;
+    display: block;
+    height: auto;
+    width: inherit;
+    position: relative; 
+    bottom:0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #303030;
+}

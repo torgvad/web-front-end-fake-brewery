@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="../assets/shared_styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Beer Menu</title>
+
+    </head>
+    
+    <body>
+        
+        <div id="banner">
+            <div id="toolbar">
+                <button onclick="window.location.href='../main.html';" class="button" id="contact_button">
+                    Home
+                </button>
+                <button onclick="window.location.href='../contact/contact.html';" class="button" id="contact_button">
+                    Contact
+                </button>
+                <button onclick="window.location.href='menu.html';" class="button" id="menu_button">
+                    Menu
+                </button>
+                <button onclick="window.location.href='../news/news.html';" class="button" id="news_button">
+                    News
+                </button>
+                <button onclick="window.location.href='../operations/operations.html';" class="button" id="operations_button">
+                    Operations
+                </button>
+            </div>
+            <div id="title">
+                All kinds of beer styles
+            </div>
+        </div>
+        
+        
+        <div id="page">
+            
+            <div id="page_content">
+
+                <div id="beers">
+                    
+                    <div class="menu-row">
+                        <div class="menu-column">
+                            <div class="menu_item" id="menu_item_1">
+                                <img class="item_img" id="menu_item_1_img" src="lager.jpg">
+                                <text class="item_title" id="menu_item_1_title">
+                                    Better than Detroit Lager
+                                </text>
+                                <text class="item_description" id="menu_item_1_description">
+                                    A bland boring lager with no redeeming qualities. At least its a better lager than what you'd get in Detroit.
+                                </text>
+                            </div>
+                        </div>
+                        <div class="menu-column">
+                            <div class="menu_item" id="menu_item_2"  >
+                                <img class="item_img" id="menu_item_2_img" src="ipa.jpg">
+                                <text class="item_title" id="menu_item_2_title">
+                                    Hippity Hoppity IPA
+                                </text>
+                                <text class="item_description" id="menu_item_2_description">
+                                    IT'S HOPPY!
+                                </text>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-row">
+                        <div class="menu-column">
+                            <div class="menu_item" id="menu_item_3" >
+                                <img class="item_img" id="menu_item_3_img" src="sour.jpg">
+                                <text class="item_title" id="menu_item_3_title">
+                                    Cherry Berry Sour
+                                </text>
+                                <text class="item_description" id="menu_item_3_description">
+                                    A pink beer made with a non-descript cherry/berry flavor. It's so sour it has no real flavor profile other than being a Warheads candy.
+                                </text>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-column">
+                            <div class="menu_item" id="menu_item_4">
+                                <img class="item_img" id="menu_item_4_img" src="brown_ale.jpg">
+                                <text class="item_title" id="menu_item_4_title">
+                                    Drinkable Brown Ale
+                                </text>
+                                <text class="item_description" id="menu_item_4_description">
+                                    The most ok beer we offer. Its either this or the lager and no one wants to pay 6 bucks for glorified bud light.
+                                </text>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-row">
+                    <div class="menu-column" style="flex: 1;">
+                        <div class="menu_item" id="menu_item_5">
+                            <img class="item_img" id="menu_item_5_img" src="stout.jpg">
+                            <text class="item_title" id="menu_item_5_title">
+                                Chocolate peanut butter raspberry triple milk stout
+                            </text>
+                            <text class="item_description" id="menu_item_5_description">
+                                Despite having the most complex name on the menu our stout is seemingly the most one dimensional beer we offer.
+                            </text>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <footer id="footer">
+                <div id="footer_content">
+                    <div id="socials">
+                        <span onclick="window.open('https://www.youtube.com/watch?v=oZzgAjjuqZM')" class="social-button" id="yt-button">
+                            <img id="yt-logo" src="../assets/yt.png">
+                        </span>
+                        <span onclick="window.open('https://twitter.com/search?q=%23Cleveland&src=typeahead_click')" class="social-button" id="twitter-button">
+                            <img src="../assets/twitter.png">
+                        </span>
+                        <span onclick="window.open('https://www.instagram.com/clevelandbeersnobs/')" class="social-button" id="ig-button">
+                            <img src="../assets/ig.jpg">
+                        </span>
+                    </div>
+                    <div id="hours">
+                        <div id="hours-label">
+                            Taproom Hours:
+                        </div>
+                        <div id="operation-hours">
+                            Mon-Thur: 3-9pm<br>
+                            Fri-Sat: 5-8pm
+                        </div>
+                    </div>
+
+                    <div id="location">
+                        <div id="location-label">
+                            Find Us:
+                        </div>
+                        <div id="address">
+                            1234 69th Street<br>
+                            Cleveland, Ohio 
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        
+    </body>
+
+</html>

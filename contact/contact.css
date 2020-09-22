@@ -1,0 +1,84 @@
+#page {
+    height: 100%;
+}
+
+#banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("contact-hero.jpg");
+}
+
+.contact-link-label {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.contact {
+    padding-top: .5em;
+}
+
+
+#contact_links {
+    word-wrap: break-word;
+    padding-top: 1.5em;
+    margin-left: 10%;
+}
+
+.contact-link {
+    color: #0645AD;
+    font-size: 130%;
+}
+
+#address-label {
+    font-weight: bold;
+}
+
+#message-submit {
+    font-family: 'Vollkorn', serif;
+    font-size: 90%;
+    margin-top: 1%;
+    margin-left: 10%;
+    border: none;
+    color: white;
+    padding: 7px;
+    background-color: #383838;
+}
+
+#contact-address-container {
+    padding-top: 1em;
+    margin-left: 10%;
+    font-size: 130%;
+}
+
+#email-submission {
+    margin-top: 3.5em;
+    font-size: 130%;
+}
+
+
+.email-submission-section {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.email-input-label {
+    margin-top: 1.5%;
+    margin-left: 10%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.email-input {
+    font-size: 17px;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#message-input {
+    font-size: 17px;
+    width: 80%;
+    height: 300px;
+}

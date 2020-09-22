@@ -1,0 +1,39 @@
+#page_content {
+    padding-top: 1%;
+    padding-bottom:2%;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("news.jpg");
+}
+
+.news-item {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2em;
+    padding: .4em;
+    display: grid;
+    border: solid;
+    border-color: grey;
+}
+
+.news-date {
+    font-size: 130%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.news-title {
+    font-size: 130%;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.news-body {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 120%;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
