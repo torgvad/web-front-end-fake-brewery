@@ -1,1 +1,3 @@
-# web-front-end-fake-brewery
+## Fake Brewery Front End Project
+
+My goal for this project was to make a clean and somewhat professional looking website for a fake brewing company. I also wanted to create this project only using pure HTML and CSS with no external frameworks or libraries. This only thing I import is the font from Google. Everything was made using plain CSS grids, flex, transforms, etc. All of the images except the menu items were found online labeled as having a Creative Commons license. The menu item pictures were taken by me.
