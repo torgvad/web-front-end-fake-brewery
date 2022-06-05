@@ -1,9 +1,4 @@
-#page {
-    height: 100%;
-}
-
 #banner {
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("contact-hero.jpg");
 }
 
@@ -51,6 +46,7 @@
 
 #email-submission {
     margin-top: 3.5em;
+    padding-bottom: 3.5em;
     font-size: 130%;
 }
 
